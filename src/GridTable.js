@@ -22,7 +22,7 @@ export const GridTable = {
     },
     tbody: {
       tag: 'tbody',
-      ...generateTableRows(20, 10)
+      ...generateTableRows(10, 8)
     },
     on: {
       // Hover to update selection if not locked
