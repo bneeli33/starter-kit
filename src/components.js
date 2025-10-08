@@ -19,7 +19,8 @@ export const Header = {
       })
     },
     Text_logo: { href: '/', text: 'Hello!' },
-    Text_about: { href: '/about', text: 'About' }
+    Text_about: { href: '/about', text: 'About' },
+    Text_grid: { href: '/grid', text: 'Grid Table' }
   },
 
   ThemeSwitcher: {}
@@ -53,3 +54,5 @@ export const Footer = {
     order: 9
   }
 }
+
+export { GridTable } from './GridTable'

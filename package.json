@@ -9,6 +9,7 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
+    "eslint": "^8.57.1",
     "smbls": "^2.29.86"
   },
   "devDependencies": {
@@ -19,7 +20,6 @@
     "@parcel/transformer-inline-string": "^2.13.3",
     "@parcel/transformer-raw": "^2.13.3",
     "buffer": "^5.5.0||^6.0.0",
-    "eslint": "^9.23.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.31.0",
     "parcel": "^2.13.3",
